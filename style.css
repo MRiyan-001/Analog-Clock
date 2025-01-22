@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(183, 179, 179);
+}
+
+.container{
+    height: 30vw;
+    width: 30vw;
+    background-image: url("Clock.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 50%;
+}
+
+#hour, #min, #sec{
+    position: absolute;
+    border-top-left-radius: 95%;
+    border-top-right-radius: 95%;
+    background-color: black;
+    transform-origin: bottom;
+}
+#hour{
+    height: 17%;
+    width: 1.4%;
+    top: 33%;
+    left: 50%;
+}
+#min{
+    height: 24%;
+    width: 1.4%;
+    top: 26%;
+    left: 50%;
+}
+#sec{
+    height: 30%;
+    width: 0.5%;
+    top: 20%;
+    left: 50.6%;
+    background-color: #fb0a0a;
+}
+
+/*   _________________________   */
+
+
+.textbox{
+    height: 7vw;
+    width: 40vw;
+    margin: auto;
+}
+.textbox>em{
+    color: darkred;
+    font-weight: 550;
+    font-size: 15px;
+    text-decoration: underline;
+    padding-left: 60px;
+}
+.textbox>h3{
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+}
+.textbox>p{
+    color: green;
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 10px;
+}
